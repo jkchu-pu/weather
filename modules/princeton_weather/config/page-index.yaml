@@ -1,0 +1,13 @@
+--
+common:
+    objdefs:
+        content:
+            default:
+                -   class: KGODataController
+                    uiClass: KGOUIHeading
+                    fields:
+                        title: Princeton Weather
+                -   class: KGOHTMLController
+                    fields:
+                        html: Princeton Weather is under construction
+...
